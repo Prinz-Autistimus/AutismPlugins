@@ -2,6 +2,7 @@ package de.autismclan.maintenance;
 
 import de.autismclan.changeAccess.MaintenanceCommand;
 import de.autismclan.changeAccess.PlayerJoinListener;
+import de.autismclan.core.PostgresInterface;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -11,6 +12,8 @@ public class MaintenancePlugin extends JavaPlugin {
 
     private static ServerState serverState = ServerState.open;
     private static ArrayList<String> allowedPlayers = new ArrayList<>();
+
+    private static PostgresInterface postgresInterface;
 
     @Override
     public void onEnable() {

@@ -1,0 +1,7 @@
+name: AutismCore
+main: de.autismclan.core.Main
+version: 1.0
+description: Core Plugin
+author: AutismClan
+website: https://blog.autismclan.de
+api-version: '1.21'
