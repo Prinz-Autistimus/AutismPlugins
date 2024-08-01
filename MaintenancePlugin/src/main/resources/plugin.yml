@@ -5,3 +5,7 @@ description: Maintenance mode for Server
 author: AutismClan
 website: https://blog.autismclan.de
 api-version: '1.21'
+commands:
+  maintenance:
+    description: Toggles the maintenance-mode
+    usage: /maintenance [on|off]
